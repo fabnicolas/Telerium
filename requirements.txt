@@ -1,0 +1,21 @@
+# Core requirements
+git+https://github.com/dolfies/discord.py-self@master
+
+# Image processing
+pillow>=9.5.0
+opencv-python>=4.7.0.72
+ultralytics>=8.0.0
+
+# Data handling and visualization
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# Utilities
+rich>=13.3.5
+requests>=2.31.0
+pyyaml>=6.0.0
+
+# Development dependencies
+black==23.3.0
+isort==5.12.0

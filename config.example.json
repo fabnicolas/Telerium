@@ -1,0 +1,44 @@
+{
+    "various_cooldowns": {
+        "retry_cooldown": 2.0,
+        "hunting_cooldown": 21.0,
+        "fishing_cooldown": 40.0
+    },
+    "captcha_retry_amount": 3,
+    "solve_captchas": false,
+    "dynamic_delay_amount": 500,
+    "console_clear": true,
+    "Language": "en",
+    
+    "put-your-token-here": {
+        "channel_id_hunting": 1234567890,
+        "channel_id_fishing": 0,
+        "ball_exceptions": {
+            "Shiny Pokemon": "ub",
+            "Shiny Bulbasaur": "mb"
+        },
+        "mon_rarity_hunting": {
+            "Common": "pb",
+            "Uncommon": "pb",
+            "Rare": "gb",
+            "Super Rare": "ub",
+            "Legendary": "mb",
+            "Shiny": "mb"
+        },
+        "mon_rarity_fishing": {
+            "Common": "fb",
+            "Uncommon": "sb",
+            "Rare": "gb",
+            "Super Rare": "ub",
+            "Legendary": "mb",
+            "Mythical": "mb"
+        },
+        "autobuy": {
+            "pb": 20,
+            "gb": 10,
+            "ub": 5,
+            "mb": 0
+        },
+        "release_duplicates_amount": 10
+    }
+}
